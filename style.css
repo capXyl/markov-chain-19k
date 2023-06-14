@@ -1,0 +1,44 @@
+body {
+    background-color: #3B3C3F;
+    font-family: Helvetica, monospace;
+}
+
+h1, h2, h3, p {
+    color: #E2E3E4;
+    font-weight: normal;
+}
+
+.block-box {
+    display: block;
+}
+
+.flex-box {
+    display: flex;
+}
+
+#block {
+    margin: auto;
+    width: min(50vw, 65%);
+    border-radius: 4px;
+    border: 1px solid #2B2C2F;
+    padding: 15px;
+}
+
+#header {
+    font-size: 25px;
+}
+
+#text_in {
+    flex: auto;
+    font-size: 15px;
+    font-family: Helvetica, monospace;
+}
+
+#text_out {
+    flex: auto;
+    font-size: 15px;
+}
+
+#quick_start {
+    float: right;
+}
